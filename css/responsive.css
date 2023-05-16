@@ -82,6 +82,24 @@
         left: unset;
         right: 0;
     }
+    .testimonial-main {
+        grid-template-columns: 1fr;
+    }
+    .blog-row {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .blog-main {
+        grid-template-columns: 1fr;
+    }
+    .footer .content {
+        grid-template-columns: 1fr;
+    }
+    .blog .work-text-heading {
+        max-width: 100%;
+        align-self: stretch;
+    }
 }
 @media (max-width: 818px) {
     .header-nav-menu {
@@ -127,7 +145,8 @@
         display: none;
     }
     .feature-2-payment,
-    .feature-2-dollar {
+    .feature-2-dollar,
+    .cta-bg-sticky {
         display: none;
     }
     .feature .hero-mobile-info-card-price {
@@ -139,5 +158,26 @@
     }
     .hero-text-search-form {
         padding: unset;
+    }
+    .btn {
+        width: 100%;
+    }
+    .cta-bg-sticky {
+        padding-inline: 0;
+    }
+    .cta .content {
+        padding: 50px 0;
+    }
+    .cta-row {
+        flex-direction: column;
+        row-gap: 20px;
+        width: fit-content;
+        margin-inline: auto;
+    }
+    .footer .btn{
+        width: fit-content;
+    }
+    .footer .content > span:nth-of-type(2){
+        margin-left: 0;
     }
 }

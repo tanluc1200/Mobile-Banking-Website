@@ -988,7 +988,7 @@ header .header-cta-link {
     position: relative;
     padding: 100px;
     text-align: center;
-    height: 466px;
+    min-height: 466px;
     background: #7264d6;
     border-radius: 24px;
 }
