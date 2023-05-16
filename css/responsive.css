@@ -93,9 +93,6 @@
     body {
         font-size: 20rem;
     }
-    *{
-        text-align: justify;
-    }
     .header-nav-menu,
     .header-cta,
     .hero-mobile-pic-sticky-3,
@@ -139,5 +136,8 @@
     .feature .hero-mobile-info-card-row.row-2 span:first-of-type,
     .feature .hero-mobile-info-card-row.row-3 span:first-of-type {
         margin-right: 10px;
+    }
+    .hero-text-search-form {
+        padding: unset;
     }
 }
